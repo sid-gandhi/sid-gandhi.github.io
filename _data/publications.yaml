@@ -1,6 +1,26 @@
 papers:
-  - title: "The BiGGen Bench: A Principled Benchmark for Fine-grained Evaluation of Language Models with Language Models"
+  - title: "Evaluating Language Models as Synthetic Data Generators"
     year: 2025
+    authors: "<b><u>Seungone Kim</u></b>, Juyoung Suk, Xiang Yue, Vijay Viswanathan, Seongyun Lee, Yizhong Wang, Kiril Gashteovski, Carolin Lawrence, Sean Welleck, Graham Neubig"
+    venue: "Preprint Under Review"
+    paper_pdf: "https://arxiv.org/abs/2412.03679"
+    code: "https://github.com/neulab/data-agora"
+    selected: y
+
+  - title: "LLM-as-an-Interviewer: Beyond Static Testing Through Dynamic LLM Evaluation"
+    authors: "Eunsu Kim, Juyoung Suk, <b><u>Seungone Kim</u></b>, Niklas Muennighoff, Dongkwan Kim, Alice Oh"
+    venue: "Preprint Under Review"
+    paper_pdf: "https://arxiv.org/abs/2412.10424"
+    code: "https://github.com/interview-eval/interview-eval"
+    selected: y
+
+  - title: "Bridging the Data Provenance Gap Across Text, Speech, and Video"
+    authors: "Shayne Longpre, Nikhil Singh, Manuel Cherep, Kushagra Tiwary, Joanna Materzynska, William Brannon, Robert Mahari, Manan Dey, Mohammed Hamdy, Nayan Saxena, Ahmad Mustafa Anis, Emad A. Alghamdi, Vu Minh Chien, Naana Obeng-Marnu, Da Yin, Kun Qian, Yizhi LI, Minnie Liang, An Dinh, Shrestha Mohanty, Deividas Mataciunas, Tobin South, Jianguo Zhang, Ariel N. Lee, Campbell S. Lund, Christopher Klamm, Damien Sileo, Diganta Misra, Enrico Shippole, Kevin Klyman, Lester James Validad Miranda, Niklas Muennighoff, Seonghyeon Ye, <b><u>Seungone Kim</u></b>, Vipul Gupta, Vivek Sharma, Xuhui Zhou, Caiming Xiong, Luis Villa, Stella Biderman, Alex Pentland, Sara Hooker, Jad Kabbara"
+    venue: "Preprint Under Review"
+    paper_pdf: "https://arxiv.org/abs/2412.17847"
+    selected: y
+
+  - title: "The BiGGen Bench: A Principled Benchmark for Fine-grained Evaluation of Language Models with Language Models"
     authors: "<b><u>Seungone Kim</u></b>, Juyoung Suk, Ji Yong Cho, Shayne Longpre, Chaeeun Kim, Dongkeun Yoon, Guijin Son, Yejin Cho, Sheikh Shafayat, Jinheon Baek, Sue Hyun Park, Hyeonbin Hwang, Jinkyung Jo, Hyowon Cho, Haebin Shin, Seongyun Lee, Hanseok Oh, Noah Lee, Namgyu Ho, Se June Joo, Miyoung Ko, Yoonjoo Lee, Hyungjoo Chae, Jamin Shin, Joel Jang, Seonghyeon Ye, Bill Yuchen Lin, Sean Welleck, Graham Neubig, Moontae Lee, Kyungjae Lee, Minjoon Seo"
     venue: "Preprint Under Review"
     paper_pdf: "https://arxiv.org/abs/2406.05761"
@@ -23,12 +43,6 @@ papers:
 
   - title: "Better Instruction-Following Through Minimum Bayes Risk"
     authors: "Ian Wu, Patrick Fernandes, Amanda Bertsch, <b><u>Seungone Kim</u></b>, Sina Pakazad, Graham Neubig"
-    venue: "Preprint Under Review"
-    paper_pdf: "https://arxiv.org/abs/2410.02902"
-    selected: y
-
-  - title: "Bridging the Dat aProvenance Gap Across Text, Speech, and Video"
-    authors: "Shayne Longpre, Nikhil Singh, Manuel Cherep, Kushagra Tiwary, Joanna Materzynska, William Brannon, Robert Mahari, Manan Dey, Mohammed Hamdy, Nayan Saxena, Ahmad Mustafa Anis, Emad A. Alghamdi, Vu Minh Chien, Naana Obeng-Marnu, Da Yin, Kun Qian, Yizhi LI, Minnie Liang, An Dinh, Shrestha Mohanty, Deividas Mataciunas, Tobin South, Jianguo Zhang, Ariel N. Lee, Campbell S. Lund, Christopher Klamm, Damien Sileo, Diganta Misra, Enrico Shippole, Kevin Klyman, Lester James Validad Miranda, Niklas Muennighoff, Seonghyeon Ye, <b><u>Seungone Kim</u></b>, Vipul Gupta, Vivek Sharma, Xuhui Zhou, Caiming Xiong, Luis Villa, Stella Biderman, Alex Pentland, Sara Hooker, Jad Kabbara"
     venue: "Preprint Under Review"
     paper_pdf: "https://arxiv.org/abs/2410.02902"
     selected: y
