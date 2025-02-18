@@ -1,6 +1,15 @@
 projects:
-  - title: 
-    subtitle: 
-    thumbnail: 
-    url: 
+  - title: "RAG Voice AI"
+    year: 2024
+    description: "Real-time question answering on documents using voice interactions "
+    code: "https://github.com/sid-gandhi/rag-voice-ai"
+    url: "https://rag-voice-ai.vercel.app/"
     selected: y
+
+  - title: "Audio Canvas"
+    year: 2023
+    description: "Voice enabled image generation"
+    code: "https://github.com/BuildYourAI-RS/frontend-app"
+    url: "https://frontend-app-plum.vercel.app/"
+    selected: y
+
