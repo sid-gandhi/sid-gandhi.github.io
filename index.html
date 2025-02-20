@@ -36,8 +36,8 @@ layout: default
   <h5>Projects</h5>
   <div class="tab-content">
     <div class="tab-pane active" id="papers-selected">
-      {% assign selected_projects = site.data.projects.projects | where: "selected", "y" %}
-      {% for project in selected_projects %}
+      {% assign selected_blogs = site.data.projects.projects | where: "selected", "y" %}
+      {% for project in selected_blogs %}
         <div class="paper">
           <div class="row">
             <div class="twelve columns">
@@ -69,7 +69,7 @@ layout: default
 
 <!-- ========== Blogs ========== -->
  
-<!-- <div class="docs-section" id="projects">
+<div class="docs-section" id="projects">
   <h4>Blogs</h4>
 
   <ul class="tab-nav">
@@ -79,8 +79,8 @@ layout: default
 
   <div class="tab-content">
     <div class="tab-pane active" id="projects-selected">
-      {% assign selected_projects = site.data.projects.projects | where: "selected", "y" %}
-      {% for project in selected_projects %}
+      {% assign selected_blogs = site.data.blogs.blogs | where: "selected", "y" %}
+      {% for blog in selected_blogs %}
         {% assign index_modulo = forloop.index0 | modulo:3 %}
         {% if index_modulo == 0 %}
           <div class="row">
@@ -90,14 +90,14 @@ layout: default
             <div class="project-container">
 
                 <div class="project-image-container">
-                  <a href="{{ project.url }}">
-                    <img src="{{ project.thumbnail }}" class="u-max-full-width" />
+                  <a href="{{ blog.url }}">
+                    <img src="{{ blog.thumbnail }}" class="u-max-full-width" />
                   </a>
                 </div>
 
                 <div class="project-caption">
-                  <b>{{ project.title }}</b> <br/>
-                  {{ project.subtitle }}
+                  <b>{{ blog.title }}</b> <br/>
+                  {{ blog.subtitle }}
                 </div>
 
             </div>
@@ -110,8 +110,8 @@ layout: default
     </div>
 
     <div class="tab-pane" id="projects-all">
-      {% assign non_selected_projects = site.data.projects.projects | where_exp:"project", "project.selected != 'y'" %}
-      {% for project in non_selected_projects %}
+      {% assign non_selected_blogs = site.data.blogs.blogs | where_exp:"blog", "blog.selected != 'y'" %}
+      {% for blog in non_selected_blogs %}
         {% assign index_modulo = forloop.index0 | modulo:3 %}
         {% if index_modulo == 0 %}
           <div class="row">
@@ -121,14 +121,14 @@ layout: default
             <div class="project-container">
 
                 <div class="project-image-container">
-                  <a href="{{ project.url }}">
-                    <img src="{{ project.thumbnail }}" class="u-max-full-width" />
+                  <a href="{{ blog.url }}">
+                    <img src="{{ blog.thumbnail }}" class="u-max-full-width" />
                   </a>
                 </div>
 
                 <div class="project-caption">
-                  <b>{{ project.title }}</b> <br/>
-                  {{ project.subtitle }}
+                  <b>{{ blog.title }}</b> <br/>
+                  {{ blog.subtitle }}
                 </div>
 
             </div>
@@ -141,7 +141,7 @@ layout: default
     </div>
   </div>
 
-</div> -->
+</div>
 
 <!-- ========== RESUME ========== -->
 <div class="docs-section" id="resume">

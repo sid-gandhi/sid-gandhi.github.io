@@ -1,6 +1,6 @@
 blogs:
-  - title: 
+  - title: "Building a realtime RAG voice agent"
     subtitle: 
-    thumbnail: 
-    url: 
+    thumbnail: "assets/blogs/rag_voice_ai.png"
+    url: "https://medium.com/@siddharthgandhi005/building-a-realtime-rag-voice-agent-8aefd50b9918"
     selected: y
